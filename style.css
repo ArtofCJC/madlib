@@ -1,0 +1,32 @@
+
+body {
+    background-image: linear-gradient(to right, red,orange,rgb(228, 255, 118),blue,rgb(34, 0, 34));
+    }
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 50px;
+   text-align: center;
+   font-style: oblique;
+   text-shadow: white 0px 0px 5pt;
+   color: gray;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.titlebg {
+    border-style:hidden;
+    border-color: rgb(161, 161, 161);
+    box-shadow:rgb(211, 255, 255) 10pt 10pt 25pt;
+}

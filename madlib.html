@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src=./app.js></script>
+    <title>Mad Libs</title>
+</head>
+<body>
+    <div class="titlebg">
+    <h1>The Temple of Fire and Ice</h1>
+    </div>
+    
+<form onSubmit="return false" action="">
+    <ul>
+        <li><input type="text" placeholder="noun" id="textOne"></li>
+        <li><input type="text" placeholder="plural noun" id="textTwo"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textThree"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textFour"></li>
+        <li><input type="text" placeholder="part of body (plural)" id="textFive"></li>
+        <li><input type="text" placeholder="adjective" id="textSix"></li>
+        <li><input type="text" placeholder="plural noun" id="textSeven"></li>
+        <li><input type="text" placeholder="adjective" id="textEight"></li>
+        <li><button type="button" id="button" onclick="createParagraph()">Let the fun begin!</button></li>
+    </ul>
+</form>
+<div id="answer"></div>
+    
+
+</body>
+</html>
