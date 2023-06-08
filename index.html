@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./style.css">
     <script src=./app.js></script>
     <title>Mad Libs</title>
 </head>
 <body>
-    <div class="titlebg">
+  <div class="titlebg">
     <h1>The Temple of Secrets</h1>
-    </div>
-    
+  </div>
+  <div class="col d-flex justify-content-center">
+    <div class="card bg-dark col-lg-12 " style="box-shadow:rgb(0, 0, 0) 10pt 10pt 25pt;">
 <form onSubmit="return false" action="">
     <ul>
-        <li><input type="text" placeholder="noun" id="textOne"></li>
-        <li><input type="text" placeholder="plural noun" id="textTwo"></li>
-        <li><input type="text" placeholder="verb (present tense)" id="textThree"></li>
-        <li><input type="text" placeholder="verb (present tense)" id="textFour"></li>
-        <li><input type="text" placeholder="part of body (plural)" id="textFive"></li>
-        <li><input type="text" placeholder="adjective" id="textSix"></li>
-        <li><input type="text" placeholder="plural noun" id="textSeven"></li>
-        <li><input type="text" placeholder="adjective" id="textEight"></li>
-        <li><button type="button" id="button" onclick="createParagraph()">Enter Passcode</button></li>
+        <li><input type="text" placeholder="noun" id="textOne" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="plural noun" id="textTwo" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textThree" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="verb (present tense)" id="textFour" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="part of body (plural)" id="textFive" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="adjective" id="textSix" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="plural noun" id="textSeven" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><input type="text" placeholder="adjective" id="textEight" class="col-md-6 form-control form-control-lg text-danger"></li>
+        <li><button type="button" id="button" onclick="createParagraph()" class="btn btn-outline-dark text-danger btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder">Enter Passcode</button></li>
     </ul>
 </form>
+</div>
+</div>
 <div id="answer"></div>
     
 

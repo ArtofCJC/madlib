@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to right, red,orange,rgb(228, 255, 118),blue,rgb(34, 0, 34));
+    background-image: linear-gradient(to top, rgb(152, 40, 40),rgb(202, 154, 66),rgb(219, 228, 181),rgb(58, 58, 176),rgb(34, 0, 34));
     }
 
 h1 {
@@ -9,26 +9,32 @@ h1 {
    text-align: center;
    font-style: oblique;
    text-shadow: white 0px 0px 5pt;
-   color: gray;
+   color: rgb(255, 255, 255);
 }
 
 
 ul {
     display: flex;
-    flex-direction: column;
-    list-style-type: none;
+    flex-direction: row;
+    list-style-type:none;
     text-align: center;
     margin-bottom: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
     }
 
 p{
     color: rgb(255, 255, 255);
+    font-size: large;
+    margin-top: 50px;
 }
 
 .titlebg {
-    border-style:hidden;
-    border-color: rgb(161, 161, 161);
-    box-shadow:rgb(211, 255, 255) 10pt 10pt 25pt;
+    border-style: 20px;
+    border-color: rgb(0, 0, 0);
+    box-shadow:rgb(0, 0, 0) 10pt 10pt 25pt;
+    background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(149, 149, 149),rgb(0, 0, 0),rgb(149, 149, 149),rgb(0, 0, 0));
+    
 }
 
 
@@ -84,3 +90,4 @@ html {
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
