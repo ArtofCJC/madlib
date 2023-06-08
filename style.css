@@ -33,7 +33,7 @@ p{
     border-style: 20px;
     border-color: rgb(0, 0, 0);
     box-shadow:rgb(0, 0, 0) 10pt 10pt 25pt;
-    background-image: linear-gradient(to right, rgb(15, 15, 15),rgb(149, 149, 149),rgb(0, 0, 0),rgb(149, 149, 149),rgb(0, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(15, 15, 15),rgb(149, 149, 149),rgb(0, 0, 0),rgb(149, 149, 149),rgb(0, 0, 0));
     
 }
 
